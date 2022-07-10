@@ -7,11 +7,9 @@ buildscript {
         kotlin_coroutines_version = "1.6.3"
         compose_version = "1.2.0-rc03"
     }
-
     repositories {
         google()
         mavenCentral()
-        maven { url "https://www.jitpack.io" }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.1.3'
